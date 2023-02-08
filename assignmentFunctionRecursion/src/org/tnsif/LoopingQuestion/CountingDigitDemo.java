@@ -16,6 +16,7 @@ public class CountingDigitDemo {
 			count++;
 		}
 		System.out.println("Number of Digits in a given Integer is: "+count);
+		s.close();
 	}
 
 }
