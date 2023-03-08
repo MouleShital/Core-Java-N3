@@ -15,7 +15,7 @@ public abstract class CurrentAcc extends BankAcc {
 
 	public void withdraw(float accBal)
 	{
-		System.out.println("Acc no:"+this.getAccNo()+ " " + "Acc name:"+ this.getAccName()+ " "+ "Account Bal:"+(accBal+creditLimit));
+		System.out.println("Acc no:"+this.getAccNo()+ " " + "Acc name:" + this.getAccName() + " " + "Account Bal:" + this.creditLimit + this.getAccBal());
 	}
 	
 }
